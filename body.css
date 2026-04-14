@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial;
-  background: #f4f6f8;
+  background: #427db8;
 }
 
 /* HEADER */
@@ -10,12 +10,12 @@ header {
   justify-content: space-between;
   align-items: center;
   background: #1e3a5f;
-  color: white;
+  color: rgb(194, 10, 10);
   padding: 15px;
 }
 
 .logo {
-  background: white;
+  background: rgb(66, 14, 104);
   color: #1e3a5f;
   padding: 10px;
   border-radius: 50%;
@@ -23,7 +23,7 @@ header {
 }
 
 nav a {
-  color: white;
+  color: rgb(69, 20, 20);
   margin-left: 15px;
   text-decoration: none;
 }
@@ -75,8 +75,8 @@ h2 {
 }
 
 .card {
-  background: white;
-  border: 1px solid #ddd;
+  background: rgb(10, 167, 96);
+  border: 1px solid #ad1f1f;
   border-radius: 8px;
   padding: 20px;
   width: 200px;
@@ -102,7 +102,7 @@ input, select {
 
 button {
   background: #1e3a5f;
-  color: white;
+  color: rgb(19, 134, 95);
   padding: 10px;
   border: none;
 }
@@ -110,7 +110,7 @@ button {
 /* FOOTER */
 footer {
   background: #1e3a5f;
-  color: white;
+  color: rgb(36, 170, 183);
   text-align: center;
   padding: 20px;
 }
