@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Escuela Digital</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">ED</div>
+  <h1>Escuela Digital</h1>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#carreras">Carreras</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Formación Académica Profesional</h2>
+  <p>Educación de calidad enfocada en el desarrollo digital.</p>
+</section>
+
+<section id="sobre">
+  <h2>Sobre la institución</h2>
+  <p>Formamos profesionales en áreas digitales con enfoque práctico.</p>
+
+  <div class="info-grid">
+    <div class="info-box">
+      <img src="https://img.icons8.com/ios-filled/50/1e3a5f/classroom.png"/>
+      <p>Ambiente académico</p>
+    </div>
+    <div class="info-box">
+      <img src="https://img.icons8.com/ios-filled/50/1e3a5f/computer.png"/>
+      <p>Laboratorios digitales</p>
+    </div>
+    <div class="info-box">
+      <img src="https://img.icons8.com/ios-filled/50/1e3a5f/teacher.png"/>
+      <p>Docentes especializados</p>
+    </div>
+  </div>
+</section>
+
+<section id="carreras">
+  <h2>Oferta Académica</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://img.icons8.com/color/96/design.png"/>
+      <h3>Diseño Gráfico</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://img.icons8.com/color/96/source-code.png"/>
+      <h3>Desarrollo Web</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://img.icons8.com/color/96/marketing.png"/>
+      <h3>Marketing Digital</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://img.icons8.com/color/96/video-editing.png"/>
+      <h3>Animación</h3>
+    </div>
+
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+
+  <form id="formulario">
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="email" name="correo" placeholder="Correo" required>
+
+    <select name="carrera" required>
+      <option value="">Selecciona una carrera</option>
+      <option>Diseño Gráfico</option>
+      <option>Desarrollo Web</option>
+      <option>Marketing Digital</option>
+      <option>Animación</option>
+    </select>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p id="mensaje"></p>
+</section>
+
+<footer>
+  <p>© 2026 Escuela Digital</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

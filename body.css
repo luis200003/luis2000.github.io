@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f8;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e3a5f;
+  color: white;
+  padding: 15px;
+}
+
+.logo {
+  background: white;
+  color: #1e3a5f;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #e3eaf2;
+}
+
+/* SECCIONES */
+section {
+  padding: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid #1e3a5f;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* ICONOS INSTITUCIONALES */
+.info-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.info-box {
+  text-align: center;
+  max-width: 120px;
+}
+
+.info-box img {
+  width: 40px;
+  height: 40px;
+}
+
+/* TARJETAS */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+input, select {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  background: #1e3a5f;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* FOOTER */
+footer {
+  background: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cards, .info-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
